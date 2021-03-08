@@ -131,8 +131,8 @@ else
 }
 
 }
-//$db=new dbSlave("localhost","root","","lib_mgmt");
-//$db->connect("localhost","root","","lib_mgmt");
+//$db=new dbSlave("hostname","username","password","dbname");
+//$db->connect("hostname","username","password","dbname");
 
 /*$db->query("set 
 character_set_connection=utf8,
