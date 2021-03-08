@@ -1,6 +1,6 @@
 <?PHP
 include "dbms.php";
-$db=new dbAdapter("localhost","root","","lib_mgmt");
+$db=new dbAdapter("hostname","username","password","dbname");
 $_GET["json"]=false;
 $db->query("select * from collection limit 0,10");
 if($_GET["json"]==true){
